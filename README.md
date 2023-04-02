@@ -22,12 +22,15 @@ git clone https://github.com/Binara-Sachin/java-vrp-solver.git
 
 ```bash
 cd java-vrp-solver
-mvn package
+mvn clean package
 ```
 
 3. Run the project:
-
+   java -jar target/java-vrp-solver-1.0.jar
 ```bash
-java -jar target/java-vrp-solver-1.0.jar
+java -cp target/java-vrp-solver-1.0.jar org.bs.vrp.Solver
 ```
 
+---
+# References
+[1] https://developers.google.com/optimization/routing/vrp#java
